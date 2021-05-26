@@ -1,12 +1,13 @@
 
 *{
     margin: 0;
+    
 }
 #cabeçario{
     margin: 10px;
 }
 #menu{
-    margin-right: 200px;
+    margin-right: 170px;
 }
 a{
     float: right;
@@ -14,10 +15,15 @@ a{
     text-decoration: none;
     color: black;
     margin-top: 5px;
+    font-size: 20px;
+}
+a:hover{
+   color: blue;
+   
 }
 #titulo{
     display: inline;
-    margin-left: 25px;
+    margin-left: 115px;
     font-family: arial;
 }
 #conteiner{
@@ -26,7 +32,7 @@ a{
     background-image: url(https://cdn.pixabay.com/photo/2020/03/16/16/08/caribbean-4937504_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    display: flex;
 }
 #conteiner-img{
     height: 100px;
@@ -38,8 +44,66 @@ a{
     font-size: 25px;
     padding: 15px;
     margin-top:110px;
+    border-radius: 10px;
 }
 #conteiner-img p{
   margin-top: 25px;
 }
+#conteiner-quartos {
+    display: flex;
+    
+  }
+#quartos{
+    width: 400px;
+    height: 350px;
+    margin: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+#conteiner-quartos img{
+    width: 400px;
+    height: 300px;
+}
+#conteiner-catalogo{
+    text-align: center;
+    margin: 10px;
+}
+#conteiner-catalogo p{
+   margin-top: 10px;
+}
+hr{
+    background-color: blue;
+    height: 2px;
+    border-radius: 35px;
+    margin-top: 5px;
+}
+#conteiner-sobre{
+    text-align: center;
+}
+#conteiner-sobre p{
+    margin-top: 10px;
+}
+#conteiner-info{
+    display:flex;
+    margin: 15px;
+    text-align: left;
+}
+#sobre{
+    margin: 10px;
+    margin-left: 50px;
+    display: flex;
+
+}
+#sobre img{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+
+}
+#sobre p{
+    margin-top:10px;
+    width: 350px;
+}
+
 
