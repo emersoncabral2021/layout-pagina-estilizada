@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
 *{
     margin: 0;
+    box-sizing: border-box;
     font-family: 'EB Garamond', serif;
     
 }
@@ -41,10 +42,10 @@ a:hover{
     align-items: center;
 }
 #conteiner-img{
-    height: 100px;
+    height: 130px;
     background-color: rgba(0, 0, 0, 0.425);
     text-align: center;
-    width: 400px;
+    width: 450px;
     color: white;
     font-size: 25px;
     padding: 15px;
@@ -55,6 +56,9 @@ a:hover{
 }
 #conteiner-quartos {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     
   }
 #quartos{
@@ -80,7 +84,7 @@ a:hover{
 }
 #quartos hr{
     background-color: blue;
-    height: 2px;
+    height: 4px;
     border-radius: 35px;
     margin-top: 5px;
 }
@@ -96,6 +100,9 @@ a:hover{
     display:flex;
     margin: 15px;
     text-align: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 #sobre{
     margin: 10px;
@@ -114,6 +121,14 @@ a:hover{
     width: 350px;
     font-size: 20px;
 }
+#sobre h3{
+    font-size: 25px;
+}
+#conteiner-catalogo h2, #conteiner-sobre h2{
+    font-size: 35px;
+
+}
+  
 #contato{
     color:white;
     display: flex;
@@ -126,7 +141,6 @@ a:hover{
     display: flex;
     width: 300px;
     padding: 10px;
-
 }
 i{
     margin-right: 10px;
