@@ -1,11 +1,33 @@
-@media screen and (max-width:800px){
+@media screen and (max-width:1000px){
+   
+    #menu{
+     margin-right: 50px;
+ }
+    a{
+        font-size: 10px;
+        margin-right: 35px;
+        font-size: 20px;
+
+    }
+    #titulo{
+     margin-left: 50px;
+     font-size: 20px;
+     margin-top: 15px;
+     font-size: 35px;
+    }
+
+ }
+ @media screen and (max-width:800px){
     #cabeçario{
         display: flex;
         justify-content: center;
         align-items: center;
-    }   
+    } 
+    #menu{
+        margin-left: 25px;
+    }  
     a{
-        font-size: 10px;
+        font-size: 17px;
         margin-right: 5px;
     }
     #titulo{
@@ -50,34 +72,16 @@
     }
 #contato div{
         font-size: 13px;
-        margin: 10px;
+        margin: 5px;
         padding: 5px;
  }
  #contato h2{
         font-size: 15px;
+        margin-left: 10px;
+
 }
 }
-@media screen and (max-width:1000px){
-    #cabeçario{
-        width: 100%;
-    }
-    #menu{
-     margin-right: 50px;
- }
-    a{
-        font-size: 10px;
-        margin-right: 35px;
-        font-size: 20px;
 
-    }
-    #titulo{
-     margin-left: 50px;
-     font-size: 20px;
-     margin-top: 15px;
-     font-size: 35px;
-    }
-
- }
  
  @media screen and (max-width:500px){
     #menu{
@@ -95,7 +99,20 @@
     justify-content: center;
     align-items: center;
     }
-  
+    #conteiner-img{
+        height: 160px;
+        
+    }
+    #quartos{
+        width: 330px;
+        height: 300px;
+        
+    }
+    #quartos img{
+        width: 350px;
+        height: 250px;
+        
+    }
     #contato div{
         font-size: 13px;
         margin: 10px;
