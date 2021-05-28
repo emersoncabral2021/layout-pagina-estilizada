@@ -5,11 +5,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'EB Garamond', serif;
-    
+    scroll-behavior: smooth;
+
 }
 #cabeçario{
     margin: 10px;
-   
 }
 #menu{
     margin-right: 170px;
@@ -20,11 +20,11 @@ a{
     text-decoration: none;
     color: black;
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 20px;        
+
 }
 a:hover{
    color: blue;
-   
 }
 #titulo{
     font-family: 'Lora', serif;
@@ -60,6 +60,7 @@ a:hover{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
     
   }
 #quartos{
