@@ -19,20 +19,21 @@
  @media screen and (max-width:800px){
     #cabeçario{
         display: flex;
-        justify-content: center;
         align-items: center;
+        flex-direction: column;
+
     } 
     #menu{
-        margin-left: 25px;
+        margin-left: 20px;
     }  
     a{
-        font-size: 17px;
-        margin-right: 5px;
+        font-size: 20px;
+        margin-right: 15px;
+        
     }
     #titulo{
-    display: block;
-    justify-content: center;
-    align-items: center;
+    font-size: 40px;
+    display: flex;
     }
  }
 @media screen and (max-width:700px){
@@ -40,13 +41,10 @@
    #menu{
     margin-right: 50px;
 }
-   a{
-       font-size: 10px;
-       margin-right: 5px;
-   }
+ 
    #titulo{
     margin-left: 0px;
-    font-size: 20px;
+    font-size: 35px;
     margin-top: 15px;
 
    }
@@ -84,15 +82,13 @@
  
  @media screen and (max-width:500px){
     #menu{
-     margin-right: 50px;
+     margin-right: 0px;
+     
  }
-    a{
-        font-size: 20px;
-        margin-right: 10px;
-    }
+   
     #titulo{
      margin-left: 0px;
-     font-size: 30px;
+     font-size: 35px;
      margin-top: 15px;
      display: flex;
     justify-content: center;
@@ -121,59 +117,4 @@
     }
    
  }
- @media screen and (min-width:0px) and (max-width:499px){
-    #menu{
-     margin-right: 50px;
- }
-    a{
-        font-size: 15px;
-        margin-right: 10px;
-    }
-    #titulo{
-     margin-left: 0px;
-     font-size: 30px;
-     margin-top: 15px;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    #conteiner-img{
-        height: 160px;
-        
-    }
-    #quartos{
-        width: 330px;
-        height: 300px;
-        
-    }
-    #quartos img{
-        width: 300px;
-        height: 225px;
-        
-    }
-    #sobre{
-        margin: 5px;
-        margin-left: 0px;
-    
-    }
-    #sobre img{
-        width: 125px;
-        height: 75px;
-        margin: 10px;
-    
-    }
-    #sobre p{
-        margin-top:10px;
-        width: 200px;
-        font-size: 17px;
-    }
-    #sobre h3{
-        font-size: 25px;
-        }
-    #contato div{
-        font-size: 13px;
-        margin: 10px;
-        padding: 5px;
-    }
-   
- }
+ 
