@@ -10,6 +10,10 @@
 }
 #cabeçario{
     margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 #menu{
     margin-right: 170px;
@@ -28,7 +32,6 @@ a:hover{
 }
 #titulo{
     font-family: 'Lora', serif;
-    display: inline;
     margin-left: 115px;
     font-size: 35px;
 }
