@@ -161,13 +161,10 @@
         width: 200px;
       
     }
-    #sobre img{
-      
-    }    
+    
     #contato div{
-        font-size: 13px;
-        margin: 10px;
-        padding: 5px;
+        display: block;
+        font-size: 15px;
     }
    
  }
