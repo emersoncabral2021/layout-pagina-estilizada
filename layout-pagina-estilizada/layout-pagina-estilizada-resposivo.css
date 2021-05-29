@@ -82,7 +82,7 @@
 }
 
  
- @media screen and (max-width:500px){
+ @media screen and (min-width:400px) and (max-width:500px){
     #menu{
      margin-right: 45px;
      
@@ -100,6 +100,7 @@
         height: 160px;
         
     }
+   
     #quartos{
         width: 330px;
         height: 300px;
@@ -119,4 +120,54 @@
     }
    
  }
+ @media screen and (min-width:0px) and (max-width:399px){
  
+    #menu{
+     margin-right: 45px;
+}
+ a{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    
+ }
+    #titulo{
+     margin-left: 0px;
+     font-size: 35px;
+     margin-top: 15px;
+    
+    }
+    #conteiner-img{
+        height: 160px;
+        
+    } 
+    #conteiner-catalogo h2, #conteiner-sobre h2{
+        font-size: 30px;
+    }
+    #quartos{
+        width: 330px;
+        height: 300px;
+        margin: 10px;  
+    }
+    #quartos img{
+        width: 325px;
+        height: 225px;   
+    }
+    #sobre{
+        width: 320px;
+      
+    }
+    #sobre p{
+        width: 200px;
+      
+    }
+    #sobre img{
+      
+    }    
+    #contato div{
+        font-size: 13px;
+        margin: 10px;
+        padding: 5px;
+    }
+   
+ }
