@@ -66,7 +66,7 @@ a:hover{
 
     
   }
-#quartos{
+.quartos{
     width: 400px;
     height: 350px;
     margin: 15px;
@@ -87,7 +87,7 @@ a:hover{
    font-size: 20px;
 
 }
-#quartos hr{
+.quartos hr{
     background-color: blue;
     height: 4px;
     border-radius: 35px;
@@ -109,24 +109,24 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
-#sobre{
+.sobre{
     margin: 10px;
     margin-left: 50px;
     display: flex;
 
 }
-#sobre img{
+.sobre img{
     width: 200px;
     height: 150px;
     margin: 10px;
 
 }
-#sobre p{
+.sobre p{
     margin-top:10px;
     width: 350px;
     font-size: 20px;
 }
-#sobre h3{
+.sobre h3{
     font-size: 25px;
 }
 #conteiner-catalogo h2, #conteiner-sobre h2{

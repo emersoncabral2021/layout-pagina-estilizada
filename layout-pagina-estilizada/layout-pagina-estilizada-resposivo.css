@@ -55,18 +55,18 @@
     margin-left: 0px;
 
 }
-#sobre img{
+.sobre img{
     width: 125px;
     height: 75px;
     margin: 10px;
 
 }
-#sobre p{
+.sobre p{
     margin-top:10px;
     width: 250px;
     font-size: 17px;
 }
-#sobre h3{
+.sobre h3{
     font-size: 25px;
     }
 #contato div{
@@ -101,15 +101,15 @@
         
     }
    
-    #quartos{
+    .quartos{
         width: 330px;
         height: 300px;
         margin: 10px;
 
         
     }
-    #quartos img{
-        width: 350px;
+    #conteiner-quartos img{
+        width: 325px;
         height: 250px;
         
     }
@@ -144,20 +144,20 @@
     #conteiner-catalogo h2, #conteiner-sobre h2{
         font-size: 30px;
     }
-    #quartos{
+    .quartos{
         width: 330px;
         height: 300px;
         margin: 10px;  
     }
-    #quartos img{
+    #conteiner-quartos img{
         width: 325px;
         height: 225px;   
     }
-    #sobre{
+    .sobre{
         width: 320px;
       
     }
-    #sobre p{
+    .sobre p{
         width: 200px;
       
     }
